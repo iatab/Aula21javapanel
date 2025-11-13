@@ -42,8 +42,8 @@ public class MenuInicialView extends JFrame {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            System.out.println("cliquei");
-
+//            System.out.println("cliquei");
+                new CadastroView();
         }
     }
 
